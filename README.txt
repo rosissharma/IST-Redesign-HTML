@@ -1,4 +1,0 @@
-For this project, I had a vision of implementing the material design to the IST website. I achieved this by using the material library and many of its unique plugins. It was a challenge working with both the api and the material library at the same time, but I managed to apply the design at the end. I choose to go with the material design because its fresh and most of the new applications/sites are gearing towards it. One of the flaws of my site is the modal box/window. Since there was already a modal in the material library, I couldn't use the jQuery modal, which I have experience with. There wasn't enough documentation for modal in the material library for me to figure out how I could implement it with the api. I did my best to pull all the data from the IST api and make a responsive site and I hope it shows that.
-
-http://serenity.ist.rit.edu/~rs9110/ist-redesign/
-
