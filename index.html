@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>IST Department at RIT</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="author" content="Rosis Sharma">
+  <meta name="description" content="Project 2">
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- Material Kit CSS -->
+  <link href="assets/css/material-kit.css?v=2.0.5" rel="stylesheet" />
+  <!-- Local Stuff -->
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <script src="https://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+  <script src="assets/js/main.js"></script>
+  <link rel="shortcut icon" href="assets/img/ist.ico">
+</head>
+
+<body>
+  <nav class="navbar navbar-color-on-scroll navbar-transparent    fixed-top  navbar-expand-lg " color-on-scroll="100"
+    id="sectionsNav">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="https://www.rit.edu/">RIT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="material-icons">apps</i> NAVIGATE
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              <a class="dropdown-item" href="#about">About Us</a>
+              <div class="dropdown-divider"></div>
+              <a href="#under" class="dropdown-item">Undergraduate</a>
+              <a href="#graduate" class="dropdown-item">Graduate</a>
+              <a class="dropdown-item" href="#minor">Minors</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#employment">Employment</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#people">People</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#res">Research</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#resource">Resources</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#news">News</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#contact">Contact</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Header Stuff -->
+  <div class="page-header header-filter" data-parallax="true"
+    style="background-image: url('assets/img/bg2.jpg'); opacity: 0.9;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto">
+          <div class="brand text-center">
+            <h1 id="home">INFORMATION SCIENCES & TECHNOLOGIES @ <span style="color:coral;">RIT</span></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="main main-raised">
+    <div class="container">
+      <div class="section text-center">
+        <div class="grid-container">
+          <section id="about">
+          </section>
+
+          <!-- Undergraduate Section -->
+          <hr>
+          <h1 id="under">Our Undergraduate Degrees</h1>
+          <section id="undergrad" class="grid-item" style="display:flex; justify-content: space-around;">
+          </section>
+
+          <!-- Graduate Section -->
+          <hr>
+          <h1 id="graduate">Our Graduate Degrees </h1>
+          <section id="grad" class="grid-item" style="display:flex; justify-content: space-around;">
+          </section>
+
+          <!-- Certificate Section -->
+          <hr style="width: 25%; margin: 8px auto;">
+          <section id="certif">
+          </section>
+        </div>
+
+        <!-- Minor Section -->
+        <hr>
+        <h1 id="minor">Our Minors</h1>
+        <section>
+          <div class="minor-grid-container" style="text-align: left;">
+          </div>
+        </section>
+
+        <!-- Employment Section -->
+        <hr>
+        <h1 id="employment">Employment</h1>
+        <div class="tables">
+          <section class="table-container">
+            <!-- Co-Op Table -->
+            <button id="coopbutton" class="btn btn-primary btn-round">Co-Op Table</button>
+            <!-- The Modal -->
+            <div id="myModal1" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content" style="text-align: left;">
+                <span class="close1">&times;</span>
+                <table id="coopTable">
+                  <tr>
+                    <th>Degree</th>
+                    <th>Employer</th>
+                    <th>Location</th>
+                    <th>Title</th>
+                  </tr>
+                </table>
+              </div>
+          </section>
+          <section>
+            <div>
+              <!-- Employment Table -->
+              <button id="employmentbutton" class="btn btn-primary btn-round">Employment Table</button>
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content" style="text-align: left;">
+                  <span class="close">&times;</span>
+                  <table id="employmentTable">
+                    <tr>
+                      <th>Degree</th>
+                      <th>Employer</th>
+                      <th>Location</th>
+                      <th>Title</th>
+                      <th>Date</th>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- People Section -->
+        <hr>
+        <h1 id="people">Our People</h1>
+        <div class="grid-container">
+          <section class="grid-item">
+            <h1> Faculty </h1>
+            <div class="faculty-grid-container" id="faculty"></div>
+          </section>
+
+          <!-- Staff Section -->
+          <hr>
+          <section class="grid-item">
+            <h1> Staff</h1>
+            <div class="staff-grid-container" id="staff">
+          </section>
+        </div>
+
+        <!-- Research Section -->
+        <hr>
+        <div class="grid-container">
+          <section class="grid-item" id="res">
+            <h1>Faculty Research: Areas of Interest</h1>
+            <p>Click the area you’re interested in to explore our faculty publications</p>
+            <div class="interest-grid-container" id="research" class="research"></div>
+          </section>
+          <hr>
+          <section class="grid-item">
+            <h1>Faculty Research: Lookup by Faculty</h1>
+            <p>Click the faculty member to explore their recent publications</p>
+            <div class="facultyre-grid-container" id="facultyre" class="facultyre"></div>
+          </section>
+        </div>
+
+        <!-- Resources Section -->
+        <hr>
+        <h1 id="resource">Student Resources</h1>
+        <section id="resources">
+          <div class="resources-grid-container">
+          </div>
+        </section>
+
+        <!-- News Section -->
+        <hr>
+        <h1 id="news">News</h1>
+        <section id="news-section"></section>
+
+        <!-- Map Placeholder -->
+        <hr>
+        <h1>Where our Students Are!</h1>
+        <section id="map">
+          <div id="map-container">
+            <iframe scrolling='no' src="http://ist.rit.edu/api/map.php"></iframe>
+          </div>
+        </section>
+
+        <!-- Footer Informations -->
+        <hr>
+        <section id="footer">
+          <div id="social"></div>
+          <div>
+            <h1><i class="fa fa-twitter" id="twitter"></i></h1>
+            <h1><i class="fa fa-facebook-square" id="facebook"></i></h1>
+          </div>
+          <div class="grid-container" id="quickLinks"></div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <hr>
+        <div id="contact">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- My Footer -->
+  <footer class="footer footer-default">
+    <div class="container">
+      <div class="copyright float-right">
+        Copyright © Rochester Institute of Technology. All Rights Reserved .
+      </div>
+    </div>
+  </footer>
+
+  <!--   Core JS Files   -->
+  <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+</body>
+
+</html>

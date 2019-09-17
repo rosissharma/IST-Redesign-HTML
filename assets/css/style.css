@@ -1,0 +1,255 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:700|Quattrocento);
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  color: #333;
+}
+
+/* The Modal (background) */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: scroll;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 15px 100px;
+  ;
+  border: 1px solid #888;
+  width: 90%;
+  text-align: center;
+}
+
+/* The Close Button */
+
+.close, .close1 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close1:hover, .close:focus, .close1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ugad, .ritgrad {
+  border: 1px solid coral;
+  padding: 6px;
+  margin: 15px;
+  transition: all .2s ease-in-out;
+}
+
+.ugad:hover, .ritgrad:hover {
+  background: coral;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0px 2px 3px #333;
+  border: 0px;
+}
+
+.minor {
+  padding: 4px;
+  margin: 10px;
+}
+
+.minor-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.minor-grid-item {
+  padding: 2px;
+  font-size: 12pt;
+  color: #333;
+  margin: 15px;
+  text-align: center;
+  transition: all .2s ease-in-out;
+}
+
+.minor-grid-item:hover {
+  background: coral;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0px 2px 3px #333;
+  border: 0px;
+}
+
+#map-container {
+  width: 100%;
+  height: 100%;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+#map {
+  height: 80vh;
+}
+
+.faculty-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.faculty {
+  font-size: 9pt;
+  color: #333;
+  border: 1px solid coral;
+  padding: 2px;
+  margin: 4px;
+  transition: all .2s ease-in-out;
+}
+
+.faculty:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 2px 3px #333;
+  border: 0px;
+  background: rgb(255, 255, 255, 0.8);
+}
+
+.staff-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.staff {
+  font-size: 9pt;
+  color: #333;
+  border: 1px solid coral;
+  padding: 2px;
+  margin: 4px;
+  transition: all .2s ease-in-out;
+}
+
+.staff:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 2px 3px #333;
+  border: 0px;
+  background: rgb(255, 255, 255, 0.8);
+}
+
+#news-section {
+  border: 1px solid coral;
+  width: 100%;
+  height: 800px;
+  overflow: scroll;
+}
+
+#research, #facultyre {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.interest-grid-item, .facultyre-grid-item {
+  color: #333;
+  border: 1px solid coral;
+  padding: 2px;
+  margin: 4px;
+  transition: all .2s ease-in-out;
+}
+
+.interest-grid-item:hover, .facultyre-grid-item:hover {
+  background: coral;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0px 2px 3px #333;
+  border: 0px;
+}
+
+.tables {
+  display: inline-grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+#quickLinks {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.quickLinks-grid-item {
+  border: 1px solid coral;
+  padding: 15px 25px;
+  margin: 15px 25px;
+}
+
+.quickLinks-grid-item:hover {
+  background: coral;
+  color: #333;
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0px 2px 3px #333;
+  border: 0px;
+}
+
+.resources-grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.resources-grid-item {
+  border: 1px solid coral;
+  padding: auto;
+  margin: 8px;
+  text-align: center;
+  justify-items: center;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.resources-grid-item:hover {
+  background: coral;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0px 2px 3px #333;
+  border: 0px;
+}
